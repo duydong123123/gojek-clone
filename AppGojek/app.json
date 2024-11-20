@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "gojek",
-    "slug": "snack-f8abbf6d-c1d3-40e4-b607-3c40afdbaa74",
+    "name": "AppGojek",
+    "slug": "AppGojek",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
