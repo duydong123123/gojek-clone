@@ -19,7 +19,7 @@ const avatarMap = {
   "6": require("../assets/comtam.jpg"),
 };
 
-export default function viewGrabFood({ route }) {
+export default function ViewGoFood({ route }) {
   const [quantity, setQuantity] = useState(1);
   const navigation = useNavigation();
 
@@ -82,7 +82,7 @@ export default function viewGrabFood({ route }) {
       {/* Order Button */}
       <View style={styles.orderButtonContainer}>
         <Pressable
-          onPress={() => navigation.navigate("thanhcong")}
+          onPress={() => navigation.navigate("ThanhCong")}
           style={styles.orderButton}
         >
           <Text style={styles.orderButtonText}>Đặt hàng</Text>

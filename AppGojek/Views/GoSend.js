@@ -47,7 +47,7 @@ const GoSend = () => {
       {/* Estimate Price Button */}
       <View style={styles.footer}>
         <Pressable
-          onPress={() => navigation.navigate("Viewgosend")}
+          onPress={() => navigation.navigate("ViewGoSend")}
           style={({ pressed }) => [
             styles.estimateButton,
             pressed && { backgroundColor: "#00A300" },

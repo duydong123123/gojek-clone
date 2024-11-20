@@ -69,7 +69,7 @@ const GoFood = () => {
                   {item.price || ""}
                 </Text>
                 <Pressable
-                  onPress={() => navigation.navigate("viewGoFood", item)}
+                  onPress={() => navigation.navigate("ViewGoFood", item)}
                   style={styles.orderButton}
                 >
                   <Text style={styles.orderButtonText}>Đặt Ngay</Text>

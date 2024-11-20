@@ -13,9 +13,9 @@ import GoBike from './Views/GoBike'
 import GoCar from './Views/GoCar'
 import GoFood from './Views/GoFood'
 import GoSend from './Views/GoSend'
-import Viewgosend from "./Views/Viewgosend";
-import viewGoFood from "./Views/viewGoFood";
-import thanhcong from "./Views/thanhcong";
+import ViewGoSend from "./Views/ViewGoSend";
+import ViewGoFood from "./Views/ViewGoFood";
+import ThanhCong from "./Views/ThanhCong";
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -104,9 +104,9 @@ function App() {
         <Stack.Screen name="GoCar" component={GoCar} />
         <Stack.Screen name="GoFood" component={GoFood} />
         <Stack.Screen name="GoSend" component={GoSend} />
-        <Stack.Screen name='Viewgosend' component={Viewgosend}/>
-        <Stack.Screen name='viewGoFood' component={viewGoFood}/>
-        <Stack.Screen name='thanhcong' component={thanhcong}/>
+        <Stack.Screen name='ViewGoSend' component={ViewGoSend}/>
+        <Stack.Screen name='ViewGoFood' component={ViewGoFood}/>
+        <Stack.Screen name='ThanhCong' component={ThanhCong}/>
       </Stack.Navigator>
     </NavigationContainer>
   )

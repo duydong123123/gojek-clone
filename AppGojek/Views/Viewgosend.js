@@ -7,7 +7,7 @@ import {
   AntDesign,
 } from "@expo/vector-icons";
 
-const Viewgobsend = () => {
+const ViewGoSend = () => {
   const navigation = useNavigation();
   return (
     <View style={styles.container}>
@@ -141,7 +141,7 @@ const Viewgobsend = () => {
   );
 };
 
-export default Viewgobsend;
+export default ViewGoSend;
 
 const styles = StyleSheet.create({
   container: {
